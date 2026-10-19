@@ -1,0 +1,21 @@
+﻿/* CloudLab Monitor - App.css */
+/* Base structural styles that complement index.css */
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", system-ui, Arial, sans-serif;
+  background: var(--clr-bg, #F0F2FF);
+  color: var(--clr-text, #1E1B4B);
+}
+
+button, input, select {
+  font: inherit;
+}
